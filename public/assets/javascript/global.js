@@ -270,7 +270,7 @@ var clickBox = function() {
   });
 };
 
-// ajax call to do the scrape
+ajax call to do the scrape
 var fetchData = function() {
   // call Fetch with AJAX
   $.ajax({
