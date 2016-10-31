@@ -29,7 +29,10 @@ app.set('view engine', 'handlebars');
 
 
 // Database configuration with mongoose
-mongoose.connect('mongodb://localhost/mongoosehw');
+
+mongoose.connect('mongodb://')
+//mongoose.connect('mongodb://localhost/mongoosehw');
+
 var db = mongoose.connection;
 
 // show any mongoose errors
